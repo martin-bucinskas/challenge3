@@ -104,9 +104,39 @@ def convert_json_to_csv(json_obj):
             f.writerow([country['name'], country['capitalCity'], country['longitude'], country['latitude']])
 
 
+def calc_distance_for_everything(json_obj):
+    headers = ['country', 'capital', 'longitude', 'latitude']
+    for country in json_obj:
+        if country['capitalCity'] is not '':
+            headers.append(country['name'])
+
+    f = csv.writer(open('sexy_countries.csv', 'w+'))
+    f.writerow(headers)
+    country_distances = list()
+
+    distance = 0
+    row = None
+    for country1 in json_obj:
+        if country1['capitalCity'] is not '':
+            print('Country: %s' % (country1['name']))
+            for country2 in json_obj:
+                if country2['capitalCity'] is not '':
+                    if country1['name'] is not country2['name']:
+                        distance = get_km_between_coords(float(country1['latitude']), float(country1['longitude']),
+                                                         float(country2['latitude']), float(country2['longitude']))
+                    else:
+                        distance = -1
+                    country_distances.append(distance)
+            row = [country1['name'], country1['capitalCity'], country1['longitude'],
+                   country1['latitude']]
+            row.extend(country_distances)
+            f.writerow(row)
+            country_distances = list()
+
+
 if __name__ == '__main__':
     data = load_json('data/sexy_countries.json')
-    convert_json_to_csv(data)
+    calc_distance_for_everything(data)
     # time_taken = timeit.timeit(main, number=1)
     # print(time_taken)
     # print(str(time_taken * 1000) + 'ms')
