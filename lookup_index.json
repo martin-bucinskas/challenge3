@@ -1,0 +1,846 @@
+{
+    "Aruba": {
+        "index": 4,
+        "capital_city": "Oranjestad"
+    },
+    "Afghanistan": {
+        "index": 5,
+        "capital_city": "Kabul"
+    },
+    "Angola": {
+        "index": 6,
+        "capital_city": "Luanda"
+    },
+    "Albania": {
+        "index": 7,
+        "capital_city": "Tirane"
+    },
+    "Andorra": {
+        "index": 8,
+        "capital_city": "Andorra la Vella"
+    },
+    "United Arab Emirates": {
+        "index": 9,
+        "capital_city": "Abu Dhabi"
+    },
+    "Argentina": {
+        "index": 10,
+        "capital_city": "Buenos Aires"
+    },
+    "Armenia": {
+        "index": 11,
+        "capital_city": "Yerevan"
+    },
+    "American Samoa": {
+        "index": 12,
+        "capital_city": "Pago Pago"
+    },
+    "Antigua and Barbuda": {
+        "index": 13,
+        "capital_city": "Saint John's"
+    },
+    "Australia": {
+        "index": 14,
+        "capital_city": "Canberra"
+    },
+    "Austria": {
+        "index": 15,
+        "capital_city": "Vienna"
+    },
+    "Azerbaijan": {
+        "index": 16,
+        "capital_city": "Baku"
+    },
+    "Burundi": {
+        "index": 17,
+        "capital_city": "Bujumbura"
+    },
+    "Belgium": {
+        "index": 18,
+        "capital_city": "Brussels"
+    },
+    "Benin": {
+        "index": 19,
+        "capital_city": "Porto-Novo"
+    },
+    "Burkina Faso": {
+        "index": 20,
+        "capital_city": "Ouagadougou"
+    },
+    "Bangladesh": {
+        "index": 21,
+        "capital_city": "Dhaka"
+    },
+    "Bulgaria": {
+        "index": 22,
+        "capital_city": "Sofia"
+    },
+    "Bahrain": {
+        "index": 23,
+        "capital_city": "Manama"
+    },
+    "Bahamas, The": {
+        "index": 24,
+        "capital_city": "Nassau"
+    },
+    "Bosnia and Herzegovina": {
+        "index": 25,
+        "capital_city": "Sarajevo"
+    },
+    "Belarus": {
+        "index": 26,
+        "capital_city": "Minsk"
+    },
+    "Belize": {
+        "index": 27,
+        "capital_city": "Belmopan"
+    },
+    "Bermuda": {
+        "index": 28,
+        "capital_city": "Hamilton"
+    },
+    "Bolivia": {
+        "index": 29,
+        "capital_city": "La Paz"
+    },
+    "Brazil": {
+        "index": 30,
+        "capital_city": "Brasilia"
+    },
+    "Barbados": {
+        "index": 31,
+        "capital_city": "Bridgetown"
+    },
+    "Brunei Darussalam": {
+        "index": 32,
+        "capital_city": "Bandar Seri Begawan"
+    },
+    "Bhutan": {
+        "index": 33,
+        "capital_city": "Thimphu"
+    },
+    "Botswana": {
+        "index": 34,
+        "capital_city": "Gaborone"
+    },
+    "Central African Republic": {
+        "index": 35,
+        "capital_city": "Bangui"
+    },
+    "Canada": {
+        "index": 36,
+        "capital_city": "Ottawa"
+    },
+    "Switzerland": {
+        "index": 37,
+        "capital_city": "Bern"
+    },
+    "Chile": {
+        "index": 38,
+        "capital_city": "Santiago"
+    },
+    "China": {
+        "index": 39,
+        "capital_city": "Beijing"
+    },
+    "Cote d'Ivoire": {
+        "index": 40,
+        "capital_city": "Yamoussoukro"
+    },
+    "Cameroon": {
+        "index": 41,
+        "capital_city": "Yaounde"
+    },
+    "Congo, Dem. Rep.": {
+        "index": 42,
+        "capital_city": "Kinshasa"
+    },
+    "Congo, Rep.": {
+        "index": 43,
+        "capital_city": "Brazzaville"
+    },
+    "Colombia": {
+        "index": 44,
+        "capital_city": "Bogota"
+    },
+    "Comoros": {
+        "index": 45,
+        "capital_city": "Moroni"
+    },
+    "Cabo Verde": {
+        "index": 46,
+        "capital_city": "Praia"
+    },
+    "Costa Rica": {
+        "index": 47,
+        "capital_city": "San Jose"
+    },
+    "Cuba": {
+        "index": 48,
+        "capital_city": "Havana"
+    },
+    "Curacao": {
+        "index": 49,
+        "capital_city": "Willemstad"
+    },
+    "Cayman Islands": {
+        "index": 50,
+        "capital_city": "George Town"
+    },
+    "Cyprus": {
+        "index": 51,
+        "capital_city": "Nicosia"
+    },
+    "Czech Republic": {
+        "index": 52,
+        "capital_city": "Prague"
+    },
+    "Germany": {
+        "index": 53,
+        "capital_city": "Berlin"
+    },
+    "Djibouti": {
+        "index": 54,
+        "capital_city": "Djibouti"
+    },
+    "Dominica": {
+        "index": 55,
+        "capital_city": "Roseau"
+    },
+    "Denmark": {
+        "index": 56,
+        "capital_city": "Copenhagen"
+    },
+    "Dominican Republic": {
+        "index": 57,
+        "capital_city": "Santo Domingo"
+    },
+    "Algeria": {
+        "index": 58,
+        "capital_city": "Algiers"
+    },
+    "Ecuador": {
+        "index": 59,
+        "capital_city": "Quito"
+    },
+    "Egypt, Arab Rep.": {
+        "index": 60,
+        "capital_city": "Cairo"
+    },
+    "Eritrea": {
+        "index": 61,
+        "capital_city": "Asmara"
+    },
+    "Spain": {
+        "index": 62,
+        "capital_city": "Madrid"
+    },
+    "Estonia": {
+        "index": 63,
+        "capital_city": "Tallinn"
+    },
+    "Ethiopia": {
+        "index": 64,
+        "capital_city": "Addis Ababa"
+    },
+    "Finland": {
+        "index": 65,
+        "capital_city": "Helsinki"
+    },
+    "Fiji": {
+        "index": 66,
+        "capital_city": "Suva"
+    },
+    "France": {
+        "index": 67,
+        "capital_city": "Paris"
+    },
+    "Faroe Islands": {
+        "index": 68,
+        "capital_city": "Torshavn"
+    },
+    "Micronesia, Fed. Sts.": {
+        "index": 69,
+        "capital_city": "Palikir"
+    },
+    "Gabon": {
+        "index": 70,
+        "capital_city": "Libreville"
+    },
+    "United Kingdom": {
+        "index": 71,
+        "capital_city": "London"
+    },
+    "Georgia": {
+        "index": 72,
+        "capital_city": "Tbilisi"
+    },
+    "Ghana": {
+        "index": 73,
+        "capital_city": "Accra"
+    },
+    "Guinea": {
+        "index": 74,
+        "capital_city": "Conakry"
+    },
+    "Gambia, The": {
+        "index": 75,
+        "capital_city": "Banjul"
+    },
+    "Guinea-Bissau": {
+        "index": 76,
+        "capital_city": "Bissau"
+    },
+    "Equatorial Guinea": {
+        "index": 77,
+        "capital_city": "Malabo"
+    },
+    "Greece": {
+        "index": 78,
+        "capital_city": "Athens"
+    },
+    "Grenada": {
+        "index": 79,
+        "capital_city": "Saint George's"
+    },
+    "Greenland": {
+        "index": 80,
+        "capital_city": "Nuuk"
+    },
+    "Guatemala": {
+        "index": 81,
+        "capital_city": "Guatemala City"
+    },
+    "Guam": {
+        "index": 82,
+        "capital_city": "Agana"
+    },
+    "Guyana": {
+        "index": 83,
+        "capital_city": "Georgetown"
+    },
+    "Honduras": {
+        "index": 84,
+        "capital_city": "Tegucigalpa"
+    },
+    "Croatia": {
+        "index": 85,
+        "capital_city": "Zagreb"
+    },
+    "Haiti": {
+        "index": 86,
+        "capital_city": "Port-au-Prince"
+    },
+    "Hungary": {
+        "index": 87,
+        "capital_city": "Budapest"
+    },
+    "Indonesia": {
+        "index": 88,
+        "capital_city": "Jakarta"
+    },
+    "Isle of Man": {
+        "index": 89,
+        "capital_city": "Douglas"
+    },
+    "India": {
+        "index": 90,
+        "capital_city": "New Delhi"
+    },
+    "Ireland": {
+        "index": 91,
+        "capital_city": "Dublin"
+    },
+    "Iran, Islamic Rep.": {
+        "index": 92,
+        "capital_city": "Tehran"
+    },
+    "Iraq": {
+        "index": 93,
+        "capital_city": "Baghdad"
+    },
+    "Iceland": {
+        "index": 94,
+        "capital_city": "Reykjavik"
+    },
+    "Italy": {
+        "index": 95,
+        "capital_city": "Rome"
+    },
+    "Jamaica": {
+        "index": 96,
+        "capital_city": "Kingston"
+    },
+    "Jordan": {
+        "index": 97,
+        "capital_city": "Amman"
+    },
+    "Japan": {
+        "index": 98,
+        "capital_city": "Tokyo"
+    },
+    "Kazakhstan": {
+        "index": 99,
+        "capital_city": "Astana"
+    },
+    "Kenya": {
+        "index": 100,
+        "capital_city": "Nairobi"
+    },
+    "Kyrgyz Republic": {
+        "index": 101,
+        "capital_city": "Bishkek"
+    },
+    "Cambodia": {
+        "index": 102,
+        "capital_city": "Phnom Penh"
+    },
+    "Kiribati": {
+        "index": 103,
+        "capital_city": "Tarawa"
+    },
+    "St. Kitts and Nevis": {
+        "index": 104,
+        "capital_city": "Basseterre"
+    },
+    "Korea, Rep.": {
+        "index": 105,
+        "capital_city": "Seoul"
+    },
+    "Kuwait": {
+        "index": 106,
+        "capital_city": "Kuwait City"
+    },
+    "Lao PDR": {
+        "index": 107,
+        "capital_city": "Vientiane"
+    },
+    "Lebanon": {
+        "index": 108,
+        "capital_city": "Beirut"
+    },
+    "Liberia": {
+        "index": 109,
+        "capital_city": "Monrovia"
+    },
+    "Libya": {
+        "index": 110,
+        "capital_city": "Tripoli"
+    },
+    "St. Lucia": {
+        "index": 111,
+        "capital_city": "Castries"
+    },
+    "Liechtenstein": {
+        "index": 112,
+        "capital_city": "Vaduz"
+    },
+    "Sri Lanka": {
+        "index": 113,
+        "capital_city": "Colombo"
+    },
+    "Lesotho": {
+        "index": 114,
+        "capital_city": "Maseru"
+    },
+    "Lithuania": {
+        "index": 115,
+        "capital_city": "Vilnius"
+    },
+    "Luxembourg": {
+        "index": 116,
+        "capital_city": "Luxembourg"
+    },
+    "Latvia": {
+        "index": 117,
+        "capital_city": "Riga"
+    },
+    "St. Martin (French part)": {
+        "index": 118,
+        "capital_city": "Marigot"
+    },
+    "Morocco": {
+        "index": 119,
+        "capital_city": "Rabat"
+    },
+    "Monaco": {
+        "index": 120,
+        "capital_city": "Monaco"
+    },
+    "Moldova": {
+        "index": 121,
+        "capital_city": "Chisinau"
+    },
+    "Madagascar": {
+        "index": 122,
+        "capital_city": "Antananarivo"
+    },
+    "Maldives": {
+        "index": 123,
+        "capital_city": "Male"
+    },
+    "Mexico": {
+        "index": 124,
+        "capital_city": "Mexico City"
+    },
+    "Marshall Islands": {
+        "index": 125,
+        "capital_city": "Majuro"
+    },
+    "North Macedonia": {
+        "index": 126,
+        "capital_city": "Skopje"
+    },
+    "Mali": {
+        "index": 127,
+        "capital_city": "Bamako"
+    },
+    "Malta": {
+        "index": 128,
+        "capital_city": "Valletta"
+    },
+    "Myanmar": {
+        "index": 129,
+        "capital_city": "Naypyidaw"
+    },
+    "Montenegro": {
+        "index": 130,
+        "capital_city": "Podgorica"
+    },
+    "Mongolia": {
+        "index": 131,
+        "capital_city": "Ulaanbaatar"
+    },
+    "Northern Mariana Islands": {
+        "index": 132,
+        "capital_city": "Saipan"
+    },
+    "Mozambique": {
+        "index": 133,
+        "capital_city": "Maputo"
+    },
+    "Mauritania": {
+        "index": 134,
+        "capital_city": "Nouakchott"
+    },
+    "Mauritius": {
+        "index": 135,
+        "capital_city": "Port Louis"
+    },
+    "Malawi": {
+        "index": 136,
+        "capital_city": "Lilongwe"
+    },
+    "Malaysia": {
+        "index": 137,
+        "capital_city": "Kuala Lumpur"
+    },
+    "Namibia": {
+        "index": 138,
+        "capital_city": "Windhoek"
+    },
+    "New Caledonia": {
+        "index": 139,
+        "capital_city": "Noum'ea"
+    },
+    "Niger": {
+        "index": 140,
+        "capital_city": "Niamey"
+    },
+    "Nigeria": {
+        "index": 141,
+        "capital_city": "Abuja"
+    },
+    "Nicaragua": {
+        "index": 142,
+        "capital_city": "Managua"
+    },
+    "Netherlands": {
+        "index": 143,
+        "capital_city": "Amsterdam"
+    },
+    "Norway": {
+        "index": 144,
+        "capital_city": "Oslo"
+    },
+    "Nepal": {
+        "index": 145,
+        "capital_city": "Kathmandu"
+    },
+    "Nauru": {
+        "index": 146,
+        "capital_city": "Yaren District"
+    },
+    "New Zealand": {
+        "index": 147,
+        "capital_city": "Wellington"
+    },
+    "Oman": {
+        "index": 148,
+        "capital_city": "Muscat"
+    },
+    "Pakistan": {
+        "index": 149,
+        "capital_city": "Islamabad"
+    },
+    "Panama": {
+        "index": 150,
+        "capital_city": "Panama City"
+    },
+    "Peru": {
+        "index": 151,
+        "capital_city": "Lima"
+    },
+    "Philippines": {
+        "index": 152,
+        "capital_city": "Manila"
+    },
+    "Palau": {
+        "index": 153,
+        "capital_city": "Koror"
+    },
+    "Papua New Guinea": {
+        "index": 154,
+        "capital_city": "Port Moresby"
+    },
+    "Poland": {
+        "index": 155,
+        "capital_city": "Warsaw"
+    },
+    "Puerto Rico": {
+        "index": 156,
+        "capital_city": "San Juan"
+    },
+    "Korea, Dem. People\u2019s Rep.": {
+        "index": 157,
+        "capital_city": "Pyongyang"
+    },
+    "Portugal": {
+        "index": 158,
+        "capital_city": "Lisbon"
+    },
+    "Paraguay": {
+        "index": 159,
+        "capital_city": "Asuncion"
+    },
+    "French Polynesia": {
+        "index": 160,
+        "capital_city": "Papeete"
+    },
+    "Qatar": {
+        "index": 161,
+        "capital_city": "Doha"
+    },
+    "Romania": {
+        "index": 162,
+        "capital_city": "Bucharest"
+    },
+    "Russian Federation": {
+        "index": 163,
+        "capital_city": "Moscow"
+    },
+    "Rwanda": {
+        "index": 164,
+        "capital_city": "Kigali"
+    },
+    "Saudi Arabia": {
+        "index": 165,
+        "capital_city": "Riyadh"
+    },
+    "Sudan": {
+        "index": 166,
+        "capital_city": "Khartoum"
+    },
+    "Senegal": {
+        "index": 167,
+        "capital_city": "Dakar"
+    },
+    "Singapore": {
+        "index": 168,
+        "capital_city": "Singapore"
+    },
+    "Solomon Islands": {
+        "index": 169,
+        "capital_city": "Honiara"
+    },
+    "Sierra Leone": {
+        "index": 170,
+        "capital_city": "Freetown"
+    },
+    "El Salvador": {
+        "index": 171,
+        "capital_city": "San Salvador"
+    },
+    "San Marino": {
+        "index": 172,
+        "capital_city": "San Marino"
+    },
+    "Somalia": {
+        "index": 173,
+        "capital_city": "Mogadishu"
+    },
+    "Serbia": {
+        "index": 174,
+        "capital_city": "Belgrade"
+    },
+    "South Sudan": {
+        "index": 175,
+        "capital_city": "Juba"
+    },
+    "Sao Tome and Principe": {
+        "index": 176,
+        "capital_city": "Sao Tome"
+    },
+    "Suriname": {
+        "index": 177,
+        "capital_city": "Paramaribo"
+    },
+    "Slovak Republic": {
+        "index": 178,
+        "capital_city": "Bratislava"
+    },
+    "Slovenia": {
+        "index": 179,
+        "capital_city": "Ljubljana"
+    },
+    "Sweden": {
+        "index": 180,
+        "capital_city": "Stockholm"
+    },
+    "Eswatini": {
+        "index": 181,
+        "capital_city": "Mbabane"
+    },
+    "Sint Maarten (Dutch part)": {
+        "index": 182,
+        "capital_city": "Philipsburg"
+    },
+    "Seychelles": {
+        "index": 183,
+        "capital_city": "Victoria"
+    },
+    "Syrian Arab Republic": {
+        "index": 184,
+        "capital_city": "Damascus"
+    },
+    "Turks and Caicos Islands": {
+        "index": 185,
+        "capital_city": "Grand Turk"
+    },
+    "Chad": {
+        "index": 186,
+        "capital_city": "N'Djamena"
+    },
+    "Togo": {
+        "index": 187,
+        "capital_city": "Lome"
+    },
+    "Thailand": {
+        "index": 188,
+        "capital_city": "Bangkok"
+    },
+    "Tajikistan": {
+        "index": 189,
+        "capital_city": "Dushanbe"
+    },
+    "Turkmenistan": {
+        "index": 190,
+        "capital_city": "Ashgabat"
+    },
+    "Timor-Leste": {
+        "index": 191,
+        "capital_city": "Dili"
+    },
+    "Tonga": {
+        "index": 192,
+        "capital_city": "Nuku'alofa"
+    },
+    "Trinidad and Tobago": {
+        "index": 193,
+        "capital_city": "Port-of-Spain"
+    },
+    "Tunisia": {
+        "index": 194,
+        "capital_city": "Tunis"
+    },
+    "Turkey": {
+        "index": 195,
+        "capital_city": "Ankara"
+    },
+    "Tuvalu": {
+        "index": 196,
+        "capital_city": "Funafuti"
+    },
+    "Tanzania": {
+        "index": 197,
+        "capital_city": "Dodoma"
+    },
+    "Uganda": {
+        "index": 198,
+        "capital_city": "Kampala"
+    },
+    "Ukraine": {
+        "index": 199,
+        "capital_city": "Kiev"
+    },
+    "Uruguay": {
+        "index": 200,
+        "capital_city": "Montevideo"
+    },
+    "United States": {
+        "index": 201,
+        "capital_city": "Washington D.C."
+    },
+    "Uzbekistan": {
+        "index": 202,
+        "capital_city": "Tashkent"
+    },
+    "St. Vincent and the Grenadines": {
+        "index": 203,
+        "capital_city": "Kingstown"
+    },
+    "Venezuela, RB": {
+        "index": 204,
+        "capital_city": "Caracas"
+    },
+    "British Virgin Islands": {
+        "index": 205,
+        "capital_city": "Road Town"
+    },
+    "Virgin Islands (U.S.)": {
+        "index": 206,
+        "capital_city": "Charlotte Amalie"
+    },
+    "Vietnam": {
+        "index": 207,
+        "capital_city": "Hanoi"
+    },
+    "Vanuatu": {
+        "index": 208,
+        "capital_city": "Port-Vila"
+    },
+    "Samoa": {
+        "index": 209,
+        "capital_city": "Apia"
+    },
+    "Kosovo": {
+        "index": 210,
+        "capital_city": "Pristina"
+    },
+    "Yemen, Rep.": {
+        "index": 211,
+        "capital_city": "Sana'a"
+    },
+    "South Africa": {
+        "index": 212,
+        "capital_city": "Pretoria"
+    },
+    "Zambia": {
+        "index": 213,
+        "capital_city": "Lusaka"
+    },
+    "Zimbabwe": {
+        "index": 214,
+        "capital_city": "Harare"
+    }
+}

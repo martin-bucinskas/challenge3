@@ -1,11 +1,12 @@
 class City:
 
-    def __init__(self, country, capital, latitude, longitude):
+    def __init__(self, country, capital, latitude, longitude, position):
         self.visited = False
         self.country = country
         self.capital = capital
         self.latitude = float(latitude)
         self.longitude = float(longitude)
+        self.position = int(position)
 
     def get_country(self) -> str:
         return self.country
@@ -25,3 +26,6 @@ class City:
     def set_visited(self, visited) -> None:
         self.visited = visited
         return None
+
+    def get_position(self) -> int:
+        return self.position

@@ -1,0 +1,1688 @@
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Aruba = z.Aruba) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Afghanistan = z.Afghanistan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Angola = z.Angola) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Albania = z.Albania) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Andorra = z.Andorra) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.United_Arab_Emirates = z.United_Arab_Emirates) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Argentina = z.Argentina) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Armenia = z.Armenia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.American_Samoa = z.American_Samoa) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Antigua_and_Barbuda = z.Antigua_and_Barbuda) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Australia = z.Australia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Austria = z.Austria) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Azerbaijan = z.Azerbaijan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Burundi = z.Burundi) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Belgium = z.Belgium) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Benin = z.Benin) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Burkina_Faso = z.Burkina_Faso) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bangladesh = z.Bangladesh) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bulgaria = z.Bulgaria) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bahrain = z.Bahrain) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bahamas_The = z.Bahamas_The) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bosnia_and_Herzegovina = z.Bosnia_and_Herzegovina) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Belarus = z.Belarus) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Belize = z.Belize) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bermuda = z.Bermuda) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bolivia = z.Bolivia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Brazil = z.Brazil) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Barbados = z.Barbados) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Brunei_Darussalam = z.Brunei_Darussalam) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Bhutan = z.Bhutan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Botswana = z.Botswana) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Central_African_Republic = z.Central_African_Republic) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Canada = z.Canada) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Switzerland = z.Switzerland) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Chile = z.Chile) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.China = z.China) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cote_dIvoire = z.Cote_dIvoire) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cameroon = z.Cameroon) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Congo_Dem__Rep_ = z.Congo_Dem__Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Congo_Rep_ = z.Congo_Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Colombia = z.Colombia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Comoros = z.Comoros) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cabo_Verde = z.Cabo_Verde) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Costa_Rica = z.Costa_Rica) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cuba = z.Cuba) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Curacao = z.Curacao) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cayman_Islands = z.Cayman_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cyprus = z.Cyprus) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Czech_Republic = z.Czech_Republic) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Germany = z.Germany) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Djibouti = z.Djibouti) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Dominica = z.Dominica) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Denmark = z.Denmark) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Dominican_Republic = z.Dominican_Republic) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Algeria = z.Algeria) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Ecuador = z.Ecuador) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Egypt_Arab_Rep_ = z.Egypt_Arab_Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Eritrea = z.Eritrea) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Spain = z.Spain) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Estonia = z.Estonia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Ethiopia = z.Ethiopia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Finland = z.Finland) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Fiji = z.Fiji) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.France = z.France) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Faroe_Islands = z.Faroe_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Micronesia_Fed__Sts_ = z.Micronesia_Fed__Sts_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Gabon = z.Gabon) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.United_Kingdom = z.United_Kingdom) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Georgia = z.Georgia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Ghana = z.Ghana) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Guinea = z.Guinea) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Gambia_The = z.Gambia_The) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Guinea_Bissau = z.Guinea_Bissau) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Equatorial_Guinea = z.Equatorial_Guinea) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Greece = z.Greece) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Grenada = z.Grenada) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Greenland = z.Greenland) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Guatemala = z.Guatemala) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Guam = z.Guam) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Guyana = z.Guyana) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Honduras = z.Honduras) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Croatia = z.Croatia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Haiti = z.Haiti) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Hungary = z.Hungary) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Indonesia = z.Indonesia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Isle_of_Man = z.Isle_of_Man) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.India = z.India) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Ireland = z.Ireland) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Iran_Islamic_Rep_ = z.Iran_Islamic_Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Iraq = z.Iraq) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Iceland = z.Iceland) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Italy = z.Italy) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Jamaica = z.Jamaica) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Jordan = z.Jordan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Japan = z.Japan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Kazakhstan = z.Kazakhstan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Kenya = z.Kenya) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Kyrgyz_Republic = z.Kyrgyz_Republic) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Cambodia = z.Cambodia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Kiribati = z.Kiribati) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.St__Kitts_and_Nevis = z.St__Kitts_and_Nevis) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Korea_Rep_ = z.Korea_Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Kuwait = z.Kuwait) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Lao_PDR = z.Lao_PDR) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Lebanon = z.Lebanon) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Liberia = z.Liberia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Libya = z.Libya) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.St__Lucia = z.St__Lucia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Liechtenstein = z.Liechtenstein) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Sri_Lanka = z.Sri_Lanka) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Lesotho = z.Lesotho) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Lithuania = z.Lithuania) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Luxembourg = z.Luxembourg) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Latvia = z.Latvia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.St__Martin_French_part = z.St__Martin_French_part) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Morocco = z.Morocco) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Monaco = z.Monaco) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Moldova = z.Moldova) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Madagascar = z.Madagascar) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Maldives = z.Maldives) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Mexico = z.Mexico) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Marshall_Islands = z.Marshall_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.North_Macedonia = z.North_Macedonia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Mali = z.Mali) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Malta = z.Malta) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Myanmar = z.Myanmar) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Montenegro = z.Montenegro) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Mongolia = z.Mongolia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Northern_Mariana_Islands = z.Northern_Mariana_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Mozambique = z.Mozambique) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Mauritania = z.Mauritania) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Mauritius = z.Mauritius) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Malawi = z.Malawi) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Malaysia = z.Malaysia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Namibia = z.Namibia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.New_Caledonia = z.New_Caledonia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Niger = z.Niger) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Nigeria = z.Nigeria) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Nicaragua = z.Nicaragua) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Netherlands = z.Netherlands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Norway = z.Norway) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Nepal = z.Nepal) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Nauru = z.Nauru) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.New_Zealand = z.New_Zealand) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Oman = z.Oman) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Pakistan = z.Pakistan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Panama = z.Panama) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Peru = z.Peru) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Philippines = z.Philippines) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Palau = z.Palau) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Papua_New_Guinea = z.Papua_New_Guinea) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Poland = z.Poland) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Puerto_Rico = z.Puerto_Rico) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Korea_Dem__Peoples_Rep_ = z.Korea_Dem__Peoples_Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Portugal = z.Portugal) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Paraguay = z.Paraguay) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.French_Polynesia = z.French_Polynesia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Qatar = z.Qatar) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Romania = z.Romania) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Russian_Federation = z.Russian_Federation) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Rwanda = z.Rwanda) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Saudi_Arabia = z.Saudi_Arabia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Sudan = z.Sudan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Senegal = z.Senegal) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Singapore = z.Singapore) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Solomon_Islands = z.Solomon_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Sierra_Leone = z.Sierra_Leone) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.El_Salvador = z.El_Salvador) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.San_Marino = z.San_Marino) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Somalia = z.Somalia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Serbia = z.Serbia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.South_Sudan = z.South_Sudan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Sao_Tome_and_Principe = z.Sao_Tome_and_Principe) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Suriname = z.Suriname) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Slovak_Republic = z.Slovak_Republic) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Slovenia = z.Slovenia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Sweden = z.Sweden) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Eswatini = z.Eswatini) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Sint_Maarten_Dutch_part = z.Sint_Maarten_Dutch_part) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Seychelles = z.Seychelles) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Syrian_Arab_Republic = z.Syrian_Arab_Republic) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Turks_and_Caicos_Islands = z.Turks_and_Caicos_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Chad = z.Chad) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Togo = z.Togo) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Thailand = z.Thailand) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Tajikistan = z.Tajikistan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Turkmenistan = z.Turkmenistan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Timor_Leste = z.Timor_Leste) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Tonga = z.Tonga) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Trinidad_and_Tobago = z.Trinidad_and_Tobago) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Tunisia = z.Tunisia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Turkey = z.Turkey) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Tuvalu = z.Tuvalu) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Tanzania = z.Tanzania) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Uganda = z.Uganda) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Ukraine = z.Ukraine) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Uruguay = z.Uruguay) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.United_States = z.United_States) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Uzbekistan = z.Uzbekistan) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.St__Vincent_and_the_Grenadines = z.St__Vincent_and_the_Grenadines) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Venezuela_RB = z.Venezuela_RB) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.British_Virgin_Islands = z.British_Virgin_Islands) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Virgin_Islands_U_S_ = z.Virgin_Islands_U_S_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Vietnam = z.Vietnam) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Vanuatu = z.Vanuatu) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Samoa = z.Samoa) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Kosovo = z.Kosovo) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Yemen_Rep_ = z.Yemen_Rep_) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.South_Africa = z.South_Africa) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Zambia = z.Zambia) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
+MATCH (n:Country)
+WITH collect(n) as plist
+FOREACH (x IN plist |
+FOREACH (y IN filter(z in plist WHERE x.Zimbabwe = z.Zimbabwe) |
+CREATE (y)-[:DISTANCE]->(x)
+)
+);
+
